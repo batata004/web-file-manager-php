@@ -1,18 +1,43 @@
 <?php
 
-set_time_limit(0);
-ini_set("memory_limit","-1");
-ini_set("pcre.backtrack_limit",1000000000);
+/*
 
+In order to use this script, you just need to change the 2 variables below and nothing else, it will work fine on PHP 7.x and 8.x.
 
+*/
+
+//THE VALUE OF THE VARIABLE BELOW MUST BE THE DIRECTORY FROM WHERE THIS FILE MANAGER WILL SHOW BY DEFAULT.
+//If you are on Linux.
 $diretorio_root = "/ebs1/apache/www/html";
-//$diretorio_root = "Z:/htdocs";
+//If you are on Windows.
+//$diretorio_root = "C:/htdocs";
 
-//O valor da variável abaixo deve começar com "https" caso contrário o preview das imagens não funcionará corretamente se a URL utilizada para acessar esse sistema possua "https".
+//THE VALUE OF THE VARIABLE BELOW MUST BE EXACTLY THE URL YOU WILL USE ON YOUR BROWSER TO ACCESS THIS SCRIPT.
+//If you are on Linux.
 $url_diretorio_root = "https://acessodireto.quemfazsite.com.br";
+//If you are on Windows.
 //$url_diretorio_root = "http://localhost";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set_time_limit(0);
+ini_set("memory_limit","-1");
+ini_set("pcre.backtrack_limit",1000000000);
 
 
 
