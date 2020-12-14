@@ -9,13 +9,13 @@ In order to use this script, you just need to change the 2 variables below and n
 //THE VALUE OF THE VARIABLE BELOW MUST BE THE DIRECTORY FROM WHERE THIS FILE MANAGER WILL SHOW BY DEFAULT.
 //If you are on Linux.
 $diretorio_root = "/ebs1/apache/www/html";
-//If you are on Windows.
+//If you are on Windows (dont use \ to separate your directories, use /).
 //$diretorio_root = "C:/htdocs";
 
 //THE VALUE OF THE VARIABLE BELOW MUST BE EXACTLY THE URL YOU WILL USE ON YOUR BROWSER TO ACCESS THIS SCRIPT.
-//If you are on Linux.
+//If you access this file on a remote server.
 $url_diretorio_root = "https://acessodireto.quemfazsite.com.br";
-//If you are on Windows.
+//If you access this file on localhost.
 //$url_diretorio_root = "http://localhost";
 
 
